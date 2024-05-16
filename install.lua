@@ -1,6 +1,6 @@
-local githubUsername = "<dillon-bhatha>"
-local repositoryName = "<minecraft_chest_monitor>"
-local chestMonitorScriptUrl = "https://github.com/dillon-bhatha/minecraft_chest_monitor" .. githubUsername .. "/" .. repositoryName .. "/main/chest_monitor.lua"
+local githubUsername = "dillon-bhatha"
+local repositoryName = "minecraft_chest_monitor"
+local chestMonitorScriptUrl = "https://raw.githubusercontent.com/" .. githubUsername .. "/" .. repositoryName .. "/main/chest_monitor.lua"
 
 
 local response = http.get(chestMonitorScriptUrl)
