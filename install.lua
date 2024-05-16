@@ -1,4 +1,4 @@
-response = http.get("https://raw.githubusercontent.com/WElpAztech/Deepdive-CC/main/chest_monitor.lua")
+response = http.get("https://github.com/dillon-bhatha/minecraft_chest_monitor/blob/main/chest_monitor.lua")
 
 if response then
     local content = response.readAll()
@@ -13,5 +13,5 @@ if response then
 
     shell.run("reboot")
 else
-    print("welp")
+    print("mislukt")
 end
